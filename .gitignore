@@ -1,0 +1,17 @@
+# Local secrets/config
+.env
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Dependencies/build output if the demo is extended later
+node_modules/
+dist/
+build/
+
+# Logs and scratch files
+*.log
+.ipynb_checkpoints/
