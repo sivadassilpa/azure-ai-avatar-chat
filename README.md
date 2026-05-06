@@ -43,9 +43,3 @@ Fill in the runtime configuration on the page:
 - Azure OpenAI deployment name
 
 Then select **Open Avatar Session**.
-
-## Security Note
-
-This is a browser demo. Any key entered into the page is available to that browser session. For a production app, move Azure OpenAI calls and Speech token exchange behind a backend service and issue short-lived tokens to the browser.
-
-The repository intentionally excludes `.env` and other local secret files.
